@@ -1,0 +1,106 @@
+body{
+  background-color: black;
+  background-image: url(images/background.png);
+  background-size: cover;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+/* .container{
+
+} */
+.main{
+  /* background-color: #625959; */
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 30%;
+  height: 78vh;
+  margin-left: 34%;
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-left: 4%;
+  border-radius: 10px;
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0)
+    );
+      animation: slide-in 2s ease-in-out;
+}
+input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid white;
+  width: 70%;
+  padding-bottom: 2%;
+  color: white;
+  font-size: 20px;
+}
+button{
+  background-color: #1a7c0a;
+  border: none;
+  color: white;
+  height: 6vh;
+  width: 30%;
+  margin-top: 7%;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 23%;
+}
+h3{
+  padding-top: 2%;
+}
+h1{
+  text-align: center;
+  margin-top: 3%;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+
+}
+.data{
+  text-align: center;
+}
+table{
+  text-align: center;
+  border: 2px solid white;
+  margin-left: 26%;
+  margin-top: 4%;
+  text-align: center;
+}
+th,tr,td{
+  border: 2px solid white;
+  
+}
+.data{
+  margin-top: 6%;
+  /* display: none; */
+}
+th{
+  padding: 20px 20px;
+  font-size: 20px;
+  /* margin-inline: 10%; */
+  /* margin-block: 10%; */
+}
+td{
+  padding: 20px 20px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+@media screen and (max-width:1200px) {
+  .main{
+    width: 45%;
+   margin-left: -1%;
+   margin-left: 28%;
+  }
+  table{
+    margin-left: 20%;
+  }
+}
